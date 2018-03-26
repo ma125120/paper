@@ -1,0 +1,22 @@
+.my-center {
+	margin-left:auto;
+	margin-right: auto;
+}
+.table th, .table td {
+  vertical-align: middle;
+}
+.my-el {
+  margin-top: 8px;
+  margin-bottom:32px; 
+}
+.scale-enter-active, .scale-leave-active {
+  transition: transform .3s,opacity .3s;
+}
+.scale-enter /* .fade-leave-active below version 2.1.8 */ {
+  transform: scale(0.5);
+  opacity: 0;
+  transform-origin: (50%,50%);
+}
+.error {
+	color:#f00;
+}
